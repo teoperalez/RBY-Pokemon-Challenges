@@ -25,6 +25,7 @@ export default function Home( {challenge, pokedex}) {
         <meta name="" content="" />
       </Head>
       <h1 className={styles.title}>Hello and Welcome to RBY Pokemon Challenges!</h1>
+      <h1 className={styles.title}>The site is still under construction, so please check back for updates</h1>
       <p className={styles.description}>As the name implies this site nd the accompanying Youtube Channel are all about the first generation of Pokemon games - Red, Blue and Yellow! 
       <br /><br />Generation 1 was by far and away the most exciting generation of Pokemon - everything was new, and there were weekly guides in Nintendo Power magazine to walk new players through their first playthrough of the game.  That being said, the games also had a lot of challenging parts for first time players, and level grinding before Brock was almost always a necessity.   But was level grinding really necessary?   Was it possible to beat the game with fewer battles?  Did we really need items or TMs to beat the games?   
 
