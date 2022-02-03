@@ -37,7 +37,7 @@ export default function PokeBallCard({pokemon}) {
                 className={pokeballStyles.card}
                 
             >
-                {!clicked && (<AnimatePresence><motion.h2 initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}}>! wonder what's inside the Pokeball?</motion.h2></AnimatePresence>)}
+                {!clicked && (<AnimatePresence><motion.h2 initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}}>! wonder what&apos;s inside the Pokeball?</motion.h2></AnimatePresence>)}
                 
         
                 <AnimatePresence>
