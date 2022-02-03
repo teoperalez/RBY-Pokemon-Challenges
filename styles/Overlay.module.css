@@ -1,0 +1,16 @@
+.container {
+    
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: -ms-grid;
+    display: grid;
+    background: lightblue;
+    background-image: url('../public/PokedexBackground.gif');
+    background-size: contain ;
+    background-repeat: no-repeat;
+   
+    
+    ;
+}
+

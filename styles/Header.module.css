@@ -1,0 +1,23 @@
+.header {
+    position:relative;
+    width: 100%;
+}
+
+.video { 
+    position:absolute;
+    height: clamp(20%, 2000px,40%);
+    width: clamp(20%, 320px, 17%);
+    z-index: 10000;
+    top: 45%;
+    left: 46%;
+    overflow: hidden;
+    margin-bottom: 4rem;
+    font-size: 2vh;
+    font-weight:600;
+}
+
+@media (max-width:30em) {
+    .video {
+        display:none;
+    }
+}

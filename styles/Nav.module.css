@@ -1,0 +1,28 @@
+.nav {
+    width: 100%s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkslategrey;
+    color:aliceblue; 
+    margin-top: -.3rem;  
+    z-index: 1000; 
+}
+
+.navbar {
+    display: flex;
+
+}
+
+.navbar li {
+    list-style: none;
+    margin: auto;
+    padding: 1rem;
+}
+
+.navbar li:hover {
+    background-color: rgb(190, 223, 157);
+    color:black
+}
+
+

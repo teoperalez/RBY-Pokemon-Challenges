@@ -1,0 +1,72 @@
+.closedball {
+    width: 100%;
+    transition: transform 500ms ease;
+    position:relative;
+    margin: auto;
+    
+}
+
+.types {
+    display:flex;
+    margin-top: 1rem; 
+    margin: auto;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.openball {
+    width: 100%;
+    display: flex;
+    position:relative;
+    margin: auto;
+}
+
+.ball {
+    width: 100%;
+    height:100%;
+    
+}
+
+.pokemon {
+    width: 200px;
+    margin: auto;
+}
+
+.pokemonname {
+    width: max-content;
+    margin:auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.closedball:hover {
+    animation: shake 1.25s cubic-bezier(.36,.07,.19,.97) infinite;
+}
+
+
+
+@keyframes shake {
+    0 { transform: translate(0, 0) rotate(0); }
+    20% { transform: translate(-10px, 0) rotate(-20deg); }
+    30% { transform: translate(10px, 0) rotate(20deg); }
+    50% { transform: translate(-10px, 0) rotate(-10deg); }
+    60% { transform: translate(10px, 0) rotate(10deg); }
+    100% { transform: translate(0, 0) rotate(0); }
+  }
+
+  .card {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 2rem;
+    margin: 1rem;
+  }
+
+  .invisible {
+      opacity: 0;
+  }
+
+  .pokeimg {
+      width: 200;
+  }
+

@@ -1,0 +1,24 @@
+.layoutgrid {
+    
+    width: 100%;
+    display: -ms-grid;
+    display:grid;
+    grid-template-areas: 
+        'header'
+        'nav'
+        'main'
+    
+    ;
+}
+
+.main {
+    grid-area: main;
+}
+.header {
+    grid-area: header;
+}
+
+.nav {
+    grid-area: nav;
+}
+
