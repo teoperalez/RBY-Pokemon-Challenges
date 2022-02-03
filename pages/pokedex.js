@@ -67,12 +67,12 @@ export default function Home( {challenge, pokedex}) {
 }
 
 export const getServerSideProps = async () => {
-  const response = await fetch("http://localhost:3000/api/challenge");
+  const response = await fetch("https://rby-pokemon-challenges.vercel.app//api/challenge");
   if (!response.ok) {
       throw new Error(`Error: ${response.status}`);
     }
   const challenge = await response.json();
-  const response2 = await fetch("http://localhost:3000/api/pokedex");
+  const response2 = await fetch("https://rby-pokemon-challenges.vercel.app//api/pokedex");
   if (!response2.ok) {
     throw new Error(`Error: ${response2.status}`);
   }

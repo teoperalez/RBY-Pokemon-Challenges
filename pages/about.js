@@ -24,7 +24,7 @@ export default function About() {
             <p>My other hobbies include making original music, including the outro song featured on my videos.  You can check out more of my music on <a href="https://open.spotify.com/artist/4v6idmJ8w0tktahSCJdepO?si=KcTZNUTuRuyyFe92QjLmXA">Spotify</a></p>
             <p>I am also an amateur web developer and freelance coder.  You can learn more about my coding serbices at <a href="http://www.Thinktradeprofit.com">ThinkTradeProfit.com</a></p> 
             <br />
-            <p>For messages regarding my content, just drop a comment on the videos.  I read nd respond to every comment and it&apos;s good for the algorithm.  For business inquiries, please contact me at teoinjp@gmail.com</p>
+            <p>For messages regarding my content, just drop a comment on the videos.  I read and respond to every comment and it&apos;s good for the algorithm.  For business inquiries, please contact me at teoinjp@gmail.com</p>
 
 
         </div>

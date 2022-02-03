@@ -9,7 +9,7 @@ export default function Videos({videos}) {
 }
 
 export const getServerSideProps = async () => {
-    const response = await fetch("http://localhost:3000/api/videos");
+    const response = await fetch("https://rby-pokemon-challenges.vercel.app//api/videos");
     if (!response.ok) {
         throw new Error(`Error: ${response.status}`);
       }
