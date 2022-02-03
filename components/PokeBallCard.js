@@ -49,7 +49,7 @@ export default function PokeBallCard({pokemon}) {
                         className={pokeballStyles.pokemon}
                 
                     >
-                        <img src={pokemon.image} width={200} />
+                        <img alt={pokemon.name}src={pokemon.image} width={200} />
                      
                     </motion.div>)}
                     
