@@ -21,14 +21,14 @@ export default function PokeBallCard({pokemon}) {
             {!clicked && (					
                 <div className={pokeballStyles.closedball}>
                     <a className={pokeballStyles.ball} onClick={() => setClicked(!clicked)}>
-                        <Image src={pokeball} width={400} height={200}/>
+                        <Image alt="pokeball" src={pokeball} width={400} height={200}/>
                     </a>
                 </div>
             )}
             {clicked && (					
                 <div className={pokeballStyles.openball}>
                     <a className={pokeballStyles.ball} onClick={() => setClicked(!clicked)}>
-                        <Image src={openPokeball} width={400} height={200}/>
+                        <Image alt="open pokeball"src={openPokeball} width={400} height={200}/>
                     </a>
                 </div>
             )}
@@ -57,8 +57,8 @@ export default function PokeBallCard({pokemon}) {
                 {clicked && (<h1 className={pokeballStyles.pokemonname}>{pokemon.name}</h1>)}
                 {clicked && (<h2 className={pokeballStyles.pokemonname}>Pokedex ID #{pokemon.id}</h2>)}
                 {clicked && (<div className={pokeballStyles.types} >
-                            <Image src={"/types/" + `${pokemon.type1}` +".png"} width={100} height={40} />
-                            {pokemon.type2 !== "" && (<Image src={"/types/" + `${pokemon.type2}` +".png"} width={100} height={40} />)}
+                            <Image alt="type1" src={"/types/" + `${pokemon.type1}` +".png"} width={100} height={40} />
+                            {pokemon.type2 !== "" && (<Image alt="type2" src={"/types/" + `${pokemon.type2}` +".png"} width={100} height={40} />)}
                             
                     </div>)}
                 

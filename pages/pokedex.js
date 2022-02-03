@@ -30,7 +30,7 @@ export default function Home( {challenge, pokedex}) {
             <tr key={pokemon.id} >
               
               <td>{pokemon.id}</td>
-              <td><Image src={`http://img.pokemondb.net/sprites/black-white/anim/normal/${pokemon.name.toLowerCase()}.gif`} width={50} height={50} /></td>
+              <td><Image alt={pokemon.name} src={`http://img.pokemondb.net/sprites/black-white/anim/normal/${pokemon.name.toLowerCase()}.gif`} width={50} height={50} /></td>
               <td>{pokemon.name}</td>
               <td>{pokemon.type1}</td>
               <td>{pokemon.type2}</td>
