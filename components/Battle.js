@@ -14,10 +14,10 @@ export default function Battle() {
         exit={{ opacity:0, translateY: 1000 }}
       >
         <div className={styles.enemy}>
-        <Image src="http://img.pokemondb.net/sprites/black-white/anim/normal/tentacruel.gif" width={200} height={200} /> 
+        <Image alt="Enemy Pokemon"src="http://img.pokemondb.net/sprites/black-white/anim/normal/tentacruel.gif" width={200} height={200} /> 
         </div>
         <div className={styles.hero}>
-        <Image src="http://img.pokemondb.net/sprites/black-white/anim/back-normal/arcanine.gif" width={270} height={200} /> 
+        <Image alt="Hero Pokemon" src="http://img.pokemondb.net/sprites/black-white/anim/back-normal/arcanine.gif" width={270} height={200} /> 
         </div>
         <div className={styles.actions}>
             <div className={styles.fight}>Fight</div>
