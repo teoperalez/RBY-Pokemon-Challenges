@@ -4,6 +4,16 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
 :root {
   --clr-neutral-900: hsl(193, 70%, 21%);
   --clr-neutral-700: hsl(193, 36%, 40%);
@@ -13,7 +23,7 @@ body {
 }
 
 body::-webkit-scrollbar {
-  width: 0.25rem;
+  width: 0.5rem;
 }
 
 body::-webkit-scrollbar-track {
@@ -37,4 +47,11 @@ a {
   margin: 0;
 }
 
+ul {
+  list-style: decimal;
+  margin-left: 2rem;
+}
 
+p {
+  font-size: 1.5rem;
+}

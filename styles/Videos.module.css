@@ -1,9 +1,15 @@
 .wrapper {
     display: flex;
     width: 100vw;
-    overflow: hidden;
+	margin: 0 -2rem;
+    
 }
-
+.carousel {
+    display: flex;
+    width: 100%;
+	
+}
+ 
 .container {
     margin: 1rem 2rem;
 }
@@ -12,10 +18,10 @@
 	margin: 1rem 2rem;
     min-width: 30rem;
     width: 30rem;
-	height: calc(9/16 * 70vw);
+	height: min-content;
 	max-height: 50vh;
 	display: flex;
-  position: relative;
+  	position: relative;
   border-radius: 2rem;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     color: black;
@@ -23,6 +29,7 @@
     align-items: flex-end;
     flex-direction: column;
     transition: transform 500ms ease-in-out;
+	
 }
 
 .card:hover {
@@ -60,6 +67,7 @@
     left:0;
 	z-index: 2;
 	background: black;
+	aspect-ratio: 16/9;
 }
 
 
@@ -89,23 +97,4 @@
 }
 
 
-/* ------------ STATES ------------ */
 
-.card:hover:after,
-.card:hover .cardplay {
-	opacity: 1;
-}
-
-.video-is-open:after {
-	display: none;
-}
-
-.video-is-open .card-play {
-	opacity: 1;
-}
-.video-is-open .card-play:after {
-		width: 2vh;
-		height: 2vh;
-		transform: translate(-50%, -50%) scale(16/9 * 50);
-		transition: transform .5s ease-out;
-	}
