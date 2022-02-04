@@ -1,0 +1,111 @@
+.wrapper {
+    display: flex;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.container {
+    margin: 1rem 2rem;
+}
+
+.card {
+	margin: 1rem 2rem;
+    min-width: 30rem;
+    width: 30rem;
+	height: calc(9/16 * 70vw);
+	max-height: 50vh;
+	display: flex;
+  position: relative;
+  border-radius: 2rem;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    color: black;
+	overflow: hidden;
+    align-items: flex-end;
+    flex-direction: column;
+    transition: transform 500ms ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05)
+}
+	
+
+.cardplay {
+	width: 48px;
+	height: 48px;
+	position: relative;
+	z-index: 1;
+	margin: auto;
+	opacity: 0;
+	background: url('../public/Youtube.png') center center / cover;
+	cursor: pointer;
+	transition: opacity .3s ease-out;
+}
+
+
+.cardplay:after {
+	content: '';
+	position: absolute;
+	top: 50%; left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+	background: black;
+	transition: all .5s ease-out;
+}
+	
+
+.cardvideo {
+	position: absolute;
+    top: 0;
+    left:0;
+	z-index: 2;
+	background: black;
+}
+
+
+	
+
+.card:after {
+	content: '';
+	width: 250%;
+	height: 250%;
+	position: absolute;
+	top: var(--y);
+	left: var(--x);
+	transform: translate(-50%, -50%);
+	opacity: 0;
+	background: radial-gradient(circle closest-side, rgba(255, 255, 255, .3), transparent);
+	transition: opacity 0.5s ease-out;
+}
+
+.title {
+    margin: auto;
+    margin-left: 1rem;
+    
+}
+
+.title:hover {
+    color: red;
+}
+
+
+/* ------------ STATES ------------ */
+
+.card:hover:after,
+.card:hover .cardplay {
+	opacity: 1;
+}
+
+.video-is-open:after {
+	display: none;
+}
+
+.video-is-open .card-play {
+	opacity: 1;
+}
+.video-is-open .card-play:after {
+		width: 2vh;
+		height: 2vh;
+		transform: translate(-50%, -50%) scale(16/9 * 50);
+		transition: transform .5s ease-out;
+	}
