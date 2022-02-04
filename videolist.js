@@ -83,4 +83,100 @@ export const videos = [
         playlist: "brock",
         url: "AstqRV9n9Zc"
     },
+    {
+        id: 15,
+        title: "How many Pokemon beat Misty on #MinimumBattles? [Ep. 1/15] #MistyChallenge",
+        playlist: "misty",
+        url: "1O_SN7GVkOk"
+    },
+    {
+        id: 16,
+        title: "How many Pokemon beat Misty on #MinimumBattles? [Ep. 2/15] #MistyChallenge",
+        playlist: "misty",
+        url: "Li-x6wELoIc"
+    },
+    {
+        id: 17,
+        title: "How many Pokemon beat Misty on #MinimumBattles? [Ep. 3/15] #MistyChallenge",
+        playlist: "misty",
+        url: "B57mLzVGdh4"
+    },
+    {
+        id: 18,
+        title: "How many Pokemon beat Misty on #MinimumBattles? [Ep. 4/15] #MistyChallenge",
+        playlist: "misty",
+        url: "8McgInuorPo"
+    },
+    {
+        id: 19,
+        title: "How many Pokemon beat Misty on #MinimumBattles? [Ep. 5/15] #MistyChallenge",
+        playlist: "misty",
+        url: "SwNfiWKIjgE"
+    },
+    {
+        id: 20,
+        title: "How many Pokemon beat Misty on #MinimumBattles? [Ep. 6/15] #MistyChallenge",
+        playlist: "misty",
+        url: "NoaZuHIO-DQ"
+    },
+    {
+        id: 21,
+        title: "How many Pokemon beat Misty on #MinimumBattles? [Ep. 7/15] #MistyChallenge",
+        playlist: "misty",
+        url: "blG4H72tg1Q"
+    },
+    {
+        id: 22,
+        title: "How many Pokemon beat Misty on #MinimumBattles? [Ep. 8/15] #MistyChallenge",
+        playlist: "misty",
+        url: "VPbplmsOOVU"
+    },
+    {
+        id: 23,
+        title: "How many Pokemon beat Misty on #MinimumBattles? [Ep. 9/15] #MistyChallenge",
+        playlist: "misty",
+        url: "julbZbLNr5Q"
+    },
+    {
+        id: 24,
+        title: "How many Pokemon beat Misty on #MinimumBattles? [Ep. 10/15] #MistyChallenge",
+        playlist: "misty",
+        url: "qOQFj6Ues4U"
+    },
+    {
+        id: 25,
+        title: "How many Pokemon beat Misty on #MinimumBattles? [Ep. 11/15] #MistyChallenge",
+        playlist: "misty",
+        url: "Z6bqQpcQxTI"
+    },
+    {
+        id: 26,
+        title: "How many Pokemon beat Misty on #MinimumBattles? [Ep. 12/15] #MistyChallenge",
+        playlist: "misty",
+        url: "3caTbg3tpMQ"
+    },
+    {
+        id: 27,
+        title: "How many Pokemon beat Misty on #MinimumBattles? [Ep. 13/15] #MistyChallenge",
+        playlist: "misty",
+        url: "gJIvcU3ewOA"
+    },
+    {
+        id: 28,
+        title: "How many Pokemon beat Misty on #MinimumBattles? [Ep. 14/15] #MistyChallenge",
+        playlist: "misty",
+        url: "NToYjmAGYZE"
+    },
+    {
+        id: 29,
+        title: "How many Pokemon beat Misty on #MinimumBattles? [Ep. 15/15] #MistyChallenge",
+        playlist: "misty",
+        url: "AEXkLhU6SR4"
+    },
+    {
+        id: 30,
+        title: "Can #Bulbasaur beat Rival 5 (Silph Co) on #MinimumBattles? [Full Run]",
+        playlist: "rival",
+        url: "nE2t0Prn-nk"
+    },
 ]
