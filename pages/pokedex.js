@@ -11,7 +11,7 @@ export default function Home( {challenge, pokedex}) {
   const [selectedId, setSelectedId] = useState(null)
   return (
     <div className={styles.container}>
-      
+      <div className={styles.wrapper}>
          
       <table className='sortable'>
         
@@ -44,12 +44,13 @@ export default function Home( {challenge, pokedex}) {
       
         <h1>Challenge</h1>
         
- 
+        <div className={styles.cards}>
  {challenge.map((pokemon, index) => (
    <motion.div key={pokemon.id} layoutId={pokemon.id} onClick={() => setSelectedId(pokemon.id)}>
      <PokemonCard pokemon={pokemon}/>
    </motion.div>
  ))}
+      </div>
  
  <AnimatePresence>
    {selectedId && (
@@ -60,7 +61,7 @@ export default function Home( {challenge, pokedex}) {
    )}
  </AnimatePresence>
             
-        
+        </div>
       </div>
       
   )

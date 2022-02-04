@@ -15,7 +15,7 @@ export default function Videos({videos}) {
 
   useEffect(() => {
     setWidth(card.current.scrollWidth)
-    setHeight(card.current.scrollHeight/2)
+    setHeight(card.current.scrollHeight/1.7)
   }, [])
 
   return (
@@ -27,7 +27,7 @@ export default function Videos({videos}) {
                   <div>
                     <iframe width={width} height={height} id="video" src={"https://www.youtube.com/embed/"+`${video.url}`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                   </div>
-                  <h2>{video.title}</h2>
+                  <h2 className={styles.title}>{video.title}</h2>
                 </div>
             ))}
             </div>
@@ -38,7 +38,7 @@ export default function Videos({videos}) {
                   <div>
                     <iframe width={width} height={height} id="video" src={"https://www.youtube.com/embed/"+`${video.url}`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                   </div>
-                  <h2>{video.title}</h2>
+                  <h2 className={styles.title}>{video.title}</h2>
                 </div>
             ))}
             </div>

@@ -5,8 +5,9 @@
 
 .video { 
     position:absolute;
-    height: clamp(20%, 2000px,40%);
-    width: clamp(20%, 320px, 17%);
+    cursor:pointer;;
+    
+    width: clamp(20%, 2000px, 20%);
     z-index: 10000;
     top: 45%;
     left: 46%;

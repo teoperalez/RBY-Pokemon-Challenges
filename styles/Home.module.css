@@ -124,3 +124,14 @@
     flex-direction: column;
   }
 }
+
+.wrapper {
+  display: flex;
+  overflow: hidden;
+  width: 100vw;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+}
