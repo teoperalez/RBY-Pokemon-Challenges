@@ -1,7 +1,7 @@
 import styles from '../styles/Videos.module.css'
 import { useState, useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
-
+import Meta from '../components/Meta';
 
 export default function Videos({videos}) {
   
@@ -29,6 +29,8 @@ export default function Videos({videos}) {
 
   return (
         <div className={styles.container}>
+            <Meta title="Challenge Videos" description="Pokemon Challenge Videos from RBY Pokemon Challenges" tags="Pokemon, Challenge, Youtube, Minimum Battles, Generation 1, Pokemon Red, Pokemon Blue, Pokemon Yellow"/>
+
             <h1>Brock Minimum Battles Runs</h1>
             <motion.div ref={carousel1} drag="x" dragConstraints={{right:0, left:-carouselWidth- 36}} className={styles.wrapper}>
             

@@ -3,6 +3,7 @@ import PokeBallCard from '../components/PokeBallCard'
 import styles from '../styles/Home.module.css'
 import {motion} from 'framer-motion'
 import Battle from '../components/Battle'
+import Meta from '../components/Meta'
 
 
 export default function Home( {challenge, pokedex}) {
@@ -20,10 +21,7 @@ export default function Home( {challenge, pokedex}) {
   console.log(poke3)
   return (
     <div className={styles.container}>
-      <Head>
-        <title>RBY Pokemon Challenges</title>
-        <meta name="" content="" />
-      </Head>
+      <Meta title="Top" description="Pokemon Minimum Battles Challenges Top" tags="Pokemon, Minimum Battles, Generation 1, Pokemon Red, Pokemon Blue, Pokemon Yellow"/>
       <h1 className={styles.title}>Hello and Welcome to RBY Pokemon Challenges!</h1>
       <h1 className={styles.title}>The site is still under construction, so please check back for updates</h1>
       <p className={styles.description}>As the name implies this site and the accompanying Youtube Channel are all about the first generation of Pokemon games - Red, Blue and Yellow! 

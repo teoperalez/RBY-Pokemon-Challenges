@@ -4,6 +4,7 @@ import Battle from '../components/Battle'
 import Image from 'next/image'
 import PokemonCard from '../components/PokemonCard'
 import { useState } from 'react'
+import Meta from '../components/Meta'
 
 
 
@@ -11,6 +12,7 @@ export default function Home( {challenge, pokedex}) {
   const [selectedId, setSelectedId] = useState(null)
   return (
     <div className={styles.container}>
+      <Meta title="Pokedex" description="Pokedex - 151 Generation 1 Pokemon" tags="Pokemon, Pokeddex, Minimum Battles, Generation 1, Pokemon Red, Pokemon Blue, Pokemon Yellow"/>
       <div className={styles.wrapper}>
          
       <table className='sortable'>
