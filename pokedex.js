@@ -10,6 +10,14 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
+
+      
+
       
     },
     {
