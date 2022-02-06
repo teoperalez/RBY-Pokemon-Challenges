@@ -143,3 +143,13 @@
 .small {
   font-size: 0.75rem;
 }
+
+.pokelink {
+  cursor:pointer;
+  font-size: 1.3rem;
+}
+
+.pokelink:hover {
+  color: rgb(122, 179, 36);
+  text-decoration: underline;
+}

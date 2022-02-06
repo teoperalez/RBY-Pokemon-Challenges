@@ -9,7 +9,7 @@ import Overlay from '../components/Overlay'
 
 
 
-export default function Pokedex( {challenge, pokedex}) {
+export default function AdminPokedex( {challenge, pokedex}) {
   const [selectedId, setSelectedId] = useState(null)
   const [filteredList, setFilteredList] = useState(pokedex)
   const [pokedexType, setPokedexType] = useState(pokedex)
@@ -109,7 +109,7 @@ export default function Pokedex( {challenge, pokedex}) {
             <th className={styles.item}>Vs Misty <br /><span className={styles.small}>(Max DVs)</span></th>
             <th className={styles.item}>Vs Rival <br /><span className={styles.small}>(Max DVs)</span></th>
             <th className={styles.item}>Vs Elite 4 <br /><span className={styles.small}>(Max DVs)</span></th>
-            <th className={styles.item}>View More</th>
+            <th>View More</th>
           </tr>
         </thead>
         <tbody className={styles.tablelist}>
@@ -126,7 +126,7 @@ export default function Pokedex( {challenge, pokedex}) {
               <td className={pokemon.vsmisty=== "Win" ? styles.win : pokemon.vsmisty=== "Loss" ? styles.loss : "" }>{pokemon.vsmisty}</td>
               <td className={pokemon.vsrival=== "Win" ? styles.win : pokemon.vsrival=== "Loss" ? styles.loss : "" }>{pokemon.vsrival}</td>
               <td className={pokemon.vselite=== "Win" ? styles.win : pokemon.vselite=== "Loss" ? styles.loss : "" }>{pokemon.vselite}</td>
-              <td>Coming Soon...</td>
+              <td><button onClick={handleOverlay}>Open Overlay</button></td>
             </tr>  
           ))}     
         </tbody>
@@ -138,7 +138,7 @@ export default function Pokedex( {challenge, pokedex}) {
             
         </div>
        
-
+        {showOverlay && (<Overlay handleClose={closeOverlay} pokemon={pokedex.filter(pokemon => pokemon.id === selectedId)}/>)}
       </div>
       
   )
@@ -164,3 +164,7 @@ return {
   }
 };
 }
+
+
+
+ 
