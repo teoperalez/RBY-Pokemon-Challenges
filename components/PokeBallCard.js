@@ -8,16 +8,16 @@ import pokeballStyles from '../styles/PokeBallCard.module.css'
 import Image from 'next/image'
 
 
-export default function PokeBallCard({pokemon}) {
+export default function PokeBallCard({pokemon, refresh}) {
     const [clicked, setClicked] = useState(false)
     const router = useRouter();
 
+    
   
       
     
     return (
         <div>
-            
             {!clicked && (					
                 <div className={pokeballStyles.closedball}>
                     <a className={pokeballStyles.ball} onClick={() => setClicked(!clicked)}>

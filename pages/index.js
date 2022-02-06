@@ -4,21 +4,41 @@ import styles from '../styles/Home.module.css'
 import {motion} from 'framer-motion'
 import Battle from '../components/Battle'
 import Meta from '../components/Meta'
-
+import { useState, useEffect } from 'react'
 
 export default function Home( {challenge, pokedex}) {
-  const pokemonlistlen = challenge.length;
-  const poke1 = Math.floor(Math.random() * pokemonlistlen)
-  const poke2 = Math.floor(Math.random() * pokemonlistlen)
-  const poke3 = Math.floor(Math.random() * pokemonlistlen)
-    
-  const pokemon1 = challenge[poke1]
-  const pokemon2 = challenge[poke2]
-  const pokemon3 = challenge[poke3]
+  const [dex, setDex] = useState(pokedex)
+  const [pokemon1, setPokemon1] = useState(pokedex[Math.floor(Math.random() * pokedex.length)]) 
+  const [pokemon2, setPokemon2] = useState(pokedex[Math.floor(Math.random() * pokedex.length)])
+  const [pokemon3, setPokemon3] = useState(pokedex[Math.floor(Math.random() * pokedex.length)])
+  
 
-  console.log(poke1)
-  console.log(poke2)
-  console.log(poke3)
+  useEffect(() => {
+  const pokemonlistlen = dex.length;
+    const poke1 = Math.floor(Math.random() * pokemonlistlen)  
+  const poke2 = Math.floor(Math.random() * pokemonlistlen)
+    const poke3 = Math.floor(Math.random() * pokemonlistlen)
+    setPokemon1(dex[poke1])
+    setPokemon2(dex[poke2])
+    setPokemon3(dex[poke3])
+    
+  }, [dex]);
+
+  function handleRadio(e) {
+    
+    if (e.target.value === "pokedex") {
+      setDex(pokedex)
+    }
+
+    if (e.target.value === "challenge") {
+      setDex(pokedex.filter(pokemon => pokemon.vsmisty === "Win" || pokemon.vsrival ==="Upcoming"))
+    }
+    
+    }
+
+ 
+
+  
   return (
     <div className={styles.container}>
       <Meta title="Top" description="Pokemon Minimum Battles Challenges Top" tags="Pokemon, Minimum Battles, Generation 1, Pokemon Red, Pokemon Blue, Pokemon Yellow"/>
@@ -29,12 +49,18 @@ export default function Home( {challenge, pokedex}) {
 
 <br /><br />Let&apos;s dive into the world of Pokemon RBY, with only a change to our starters and see how far we can go!</p>
       <p className={styles.description}>This website was made to help the RBY Pokemon Challenges channel audience follow along with the challenges and provide some fun content for all of my amazing subscribers.  I enjoy making this content for all of you every week, and I can&apos;t wait to see where this channel goes!</p>
+      <div className={styles.description}>
+        <input type="radio" id="pokedex" name="pokemon_list" defaultChecked="pokedex" value="pokedex" onChange={handleRadio} />
+        <label  htmlFor="pokedex">   Full Pokedex  </label>
+        <input type="radio" id="challenge" name="pokemon_list" value="challenge" onChange={handleRadio} />
+        <label htmlFor="challenge">  Challenge Pokemon  </label><br />
+      </div>
       <div className={styles.container}><h1 className={styles.title}>Choose a Pokemon to begin your journey!</h1><br />
       <motion.main className={styles.main}>
       
         <PokeBallCard pokemon={pokemon1} />
-        <PokeBallCard pokemon={pokemon2}/>
-        <PokeBallCard pokemon={pokemon3}/>
+        <PokeBallCard pokemon={pokemon2} />
+        <PokeBallCard pokemon={pokemon3} />
       </motion.main>
       
       </div>

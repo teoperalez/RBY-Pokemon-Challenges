@@ -5,6 +5,8 @@ import { motion } from 'framer-motion'
 export default function PokemonCard({pokemon}) {
     return (
       <div className={styles.card}>
+        
+        
         <motion.div 
           className={styles.cardimage}
           whileHover={{
