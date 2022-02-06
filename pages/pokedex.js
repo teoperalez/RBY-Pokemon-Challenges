@@ -19,7 +19,7 @@ export default function Home( {challenge, pokedex}) {
     if (e.target.value === "pokedex") {
       setPokedexType(pokedex)
     } else if (e.target.value === "challenge") {
-      setPokedexType(challenge)
+      setPokedexType(pokedex.filter(pokemon => pokemon.vsmisty === "Win"))
     }
     
   }
@@ -91,10 +91,10 @@ export default function Home( {challenge, pokedex}) {
             <th className={styles.item}>Sprite</th>
             <th className={styles.item}>Name</th>
             <th className={styles.item}>Type</th>
-            <th className={styles.item}>Vs Brock</th>
-            <th className={styles.item}>Vs Misty</th>
-            <th className={styles.item}>Vs Rival</th>
-            <th className={styles.item}>Vs Elite 4</th>
+            <th className={styles.item}>Vs Brock <br /><span className={styles.small}>(Max DVs)</span></th>
+            <th className={styles.item}>Vs Misty <br /><span className={styles.small}>(Max DVs)</span></th>
+            <th className={styles.item}>Vs Rival <br /><span className={styles.small}>(Max DVs)</span></th>
+            <th className={styles.item}>Vs Elite 4 <br /><span className={styles.small}>(Max DVs)</span></th>
           </tr>
         </thead>
         <tbody className={styles.tablelist}>
@@ -107,10 +107,10 @@ export default function Home( {challenge, pokedex}) {
               <td>{pokemon.name}</td>
               <td><Image alt="type1" src={"/types/" + `${pokemon.type1}` +".png"} width={50} height={20} /><br />
               {pokemon.type2 !== "" && (<Image alt="type2" src={"/types/" + `${pokemon.type2}` +".png"} width={50} height={20} />)}</td>
-              <td className={pokemon.vsbrock=== "Win" ? styles.win : styles.loss }>{pokemon.vsbrock}</td>
-              <td>{pokemon.vsmisty}</td>
-              <td>{pokemon.vsrival}</td>
-              <td>{pokemon.vselite}</td>
+              <td className={pokemon.vsbrock=== "Win" ? styles.win : pokemon.vsbrock=== "Loss" ? styles.loss : "" }>{pokemon.vsbrock}</td>
+              <td className={pokemon.vsmisty=== "Win" ? styles.win : pokemon.vsmisty=== "Loss" ? styles.loss : "" }>{pokemon.vsmisty}</td>
+              <td className={pokemon.vsrival=== "Win" ? styles.win : pokemon.vsrival=== "Loss" ? styles.loss : "" }>{pokemon.vsrival}</td>
+              <td className={pokemon.vselite=== "Win" ? styles.win : pokemon.vselite=== "Loss" ? styles.loss : "" }>{pokemon.vselite}</td>
 
             </tr>  
           ))}     

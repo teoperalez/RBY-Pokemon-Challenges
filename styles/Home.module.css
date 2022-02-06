@@ -129,9 +129,17 @@
 }
 
 .win {
-  color: green
+  color: green;
+  font-weight: 600;
+  font-size: 1.25rem;
 }
 
 .loss { 
   color: red;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.small {
+  font-size: 0.75rem;
 }
