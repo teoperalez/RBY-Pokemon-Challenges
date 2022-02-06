@@ -10,15 +10,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Win",
+      vselite: "Upcoming",
       hp: 45,
       attack: 49,
       defense: 49,
       special: 65,
       speed: 45
-
-      
-
-      
     },
     {
       id: 2,
@@ -31,7 +31,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 3,
@@ -44,7 +52,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 4,
@@ -57,7 +73,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 5,
@@ -70,7 +94,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 6,
@@ -83,7 +115,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 7,
@@ -96,7 +136,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 8,
@@ -109,7 +157,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 9,
@@ -122,7 +178,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 10,
@@ -135,7 +199,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 11,
@@ -148,7 +220,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 12,
@@ -161,7 +241,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 13,
@@ -174,8 +262,17 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
+    
     {
       id: 14,
       name: "Kakuna",
@@ -187,8 +284,17 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
+    
     {
       id: 15,
       name: "Beedrill",
@@ -200,7 +306,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 16,
@@ -213,7 +327,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 17,
@@ -226,7 +348,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 18,
@@ -239,7 +369,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 19,
@@ -252,7 +390,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 20,
@@ -265,7 +411,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 21,
@@ -278,7 +432,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 22,
@@ -291,7 +453,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 23,
@@ -304,7 +474,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 24,
@@ -317,7 +495,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 25,
@@ -330,7 +516,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 26,
@@ -343,7 +537,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 27,
@@ -356,7 +558,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 28,
@@ -369,7 +579,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 29,
@@ -382,7 +600,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 30,
@@ -395,7 +621,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 31,
@@ -408,7 +642,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 32,
@@ -421,7 +663,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 33,
@@ -434,7 +684,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 34,
@@ -447,7 +705,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 35,
@@ -460,7 +726,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 36,
@@ -473,7 +747,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 37,
@@ -486,7 +768,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 38,
@@ -499,7 +789,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 39,
@@ -512,7 +810,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 40,
@@ -525,7 +831,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 41,
@@ -538,7 +852,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 42,
@@ -551,7 +873,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 43,
@@ -564,7 +894,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 44,
@@ -577,7 +915,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 45,
@@ -590,7 +936,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 46,
@@ -603,7 +957,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 47,
@@ -616,7 +978,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 48,
@@ -629,7 +999,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 49,
@@ -642,7 +1020,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 50,
@@ -655,7 +1041,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 51,
@@ -668,7 +1062,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 52,
@@ -681,7 +1083,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 53,
@@ -694,7 +1104,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 54,
@@ -707,7 +1125,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 55,
@@ -720,7 +1146,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 56,
@@ -733,7 +1167,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 57,
@@ -746,7 +1188,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 58,
@@ -759,7 +1209,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 59,
@@ -772,7 +1230,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 60,
@@ -785,7 +1251,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 61,
@@ -798,7 +1272,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 62,
@@ -811,7 +1293,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 63,
@@ -824,7 +1314,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 64,
@@ -837,7 +1335,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 65,
@@ -850,7 +1356,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 66,
@@ -863,7 +1377,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 67,
@@ -876,7 +1398,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 68,
@@ -889,7 +1419,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 69,
@@ -902,7 +1440,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 70,
@@ -915,7 +1461,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 71,
@@ -928,7 +1482,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 72,
@@ -941,7 +1503,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 73,
@@ -954,7 +1524,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 74,
@@ -967,7 +1545,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 75,
@@ -980,7 +1566,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 76,
@@ -993,7 +1587,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 77,
@@ -1006,7 +1608,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 78,
@@ -1019,7 +1629,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 79,
@@ -1032,7 +1650,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 80,
@@ -1045,7 +1671,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 81,
@@ -1058,7 +1692,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 82,
@@ -1071,7 +1713,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 83,
@@ -1084,7 +1734,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 84,
@@ -1097,7 +1755,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 85,
@@ -1110,7 +1776,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 86,
@@ -1123,7 +1797,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 87,
@@ -1136,7 +1818,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 88,
@@ -1149,7 +1839,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 89,
@@ -1162,7 +1860,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 90,
@@ -1175,7 +1881,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 91,
@@ -1188,7 +1902,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 92,
@@ -1201,7 +1923,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 93,
@@ -1214,7 +1944,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 94,
@@ -1227,7 +1965,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 95,
@@ -1240,7 +1986,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 96,
@@ -1253,7 +2007,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 97,
@@ -1266,7 +2028,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 98,
@@ -1279,7 +2049,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 99,
@@ -1292,7 +2070,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 100,
@@ -1305,7 +2091,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 101,
@@ -1318,7 +2112,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 102,
@@ -1331,7 +2133,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 103,
@@ -1344,7 +2154,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 104,
@@ -1357,7 +2175,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 105,
@@ -1370,7 +2196,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 106,
@@ -1383,7 +2217,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 107,
@@ -1396,7 +2238,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 108,
@@ -1409,7 +2259,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 109,
@@ -1422,7 +2280,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 110,
@@ -1435,7 +2301,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 111,
@@ -1448,7 +2322,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 112,
@@ -1461,7 +2343,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 113,
@@ -1474,7 +2364,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 114,
@@ -1487,7 +2385,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 115,
@@ -1500,7 +2406,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 116,
@@ -1513,7 +2427,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 117,
@@ -1526,7 +2448,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 118,
@@ -1539,7 +2469,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 119,
@@ -1552,7 +2490,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 120,
@@ -1565,7 +2511,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 121,
@@ -1578,7 +2532,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 122,
@@ -1591,7 +2553,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 123,
@@ -1604,7 +2574,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 124,
@@ -1617,7 +2595,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 125,
@@ -1630,7 +2616,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 126,
@@ -1643,7 +2637,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 127,
@@ -1656,7 +2658,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 128,
@@ -1669,7 +2679,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 129,
@@ -1682,7 +2700,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 130,
@@ -1695,7 +2721,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 131,
@@ -1708,7 +2742,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 132,
@@ -1721,7 +2763,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 133,
@@ -1734,7 +2784,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 134,
@@ -1747,7 +2805,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 135,
@@ -1760,7 +2826,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 136,
@@ -1773,7 +2847,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 137,
@@ -1786,7 +2868,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 138,
@@ -1799,7 +2889,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 139,
@@ -1812,7 +2910,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 140,
@@ -1825,7 +2931,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 141,
@@ -1838,7 +2952,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 142,
@@ -1851,7 +2973,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 143,
@@ -1864,7 +2994,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 144,
@@ -1877,7 +3015,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 145,
@@ -1890,7 +3036,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 146,
@@ -1903,7 +3057,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 147,
@@ -1916,7 +3078,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 148,
@@ -1929,7 +3099,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 149,
@@ -1942,7 +3120,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 150,
@@ -1955,7 +3141,15 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Win",
+      vsmisty: "Win",
+      vsrival: "Upcoming",
+      vselite: "Upcoming",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
     {
       id: 151,
@@ -1968,6 +3162,14 @@ export const pokedex = [
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       rivalurl: "",
       eliteurl: "",
-      
+      vsbrock: "Loss",
+      vsmisty: "-",
+      vsrival: "-",
+      vselite: "-",
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      special: 65,
+      speed: 45
     },
   ];

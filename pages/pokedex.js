@@ -15,41 +15,6 @@ export default function Home( {challenge, pokedex}) {
   const [pokedexType, setPokedexType] = useState(pokedex)
   const [searchQuery, setSearchQuery] = useState("")
 
-  
-  
-  function handleChange(e) {
-    // Variable to hold the original version of the list
-    let currentList = [];
-        // Variable to hold the filtered list before putting into state
-    let newList = [];
-    setSearchQuery(e.target.value)
-
-        // If the search bar isn't empty
-    if (searchQuery !== "") {
-            // Assign the original list to currentList
-      currentList = pokedexType;
-
-            // Use .filter() to determine which items should be displayed
-            // based on the search terms
-      newList = currentList.filter(pokemon => {
-                // change current item to lowercase
-        const lc = pokemon.name.toLowerCase();
-                // change search term to lowercase
-        const filter = e.target.value.toLowerCase();
-                // check to see if the current list item includes the search term
-                // If it does, it will be added to newList. Using lowercase eliminates
-                // issues with capitalization in search terms and search content
-        return lc.includes(filter);
-      });
-    } else {
-            // If the search bar is empty, set newList to original task list
-      newList = pokedexType;
-    }
-        // Set the filtered state based on what our rules added to newList
-    setFilteredList(newList);
-    
-  }
-
   function handleRadio(e) {
     if (e.target.value === "pokedex") {
       setPokedexType(pokedex)
@@ -122,14 +87,17 @@ export default function Home( {challenge, pokedex}) {
       
         <thead>
           <tr>
-            <th>ID</th>
-            <th>Sprite</th>
-            <th>Name</th>
-            <th>Type</th>
-            <th></th>
+            <th className={styles.item}>ID</th>
+            <th className={styles.item}>Sprite</th>
+            <th className={styles.item}>Name</th>
+            <th className={styles.item}>Type</th>
+            <th className={styles.item}>Vs Brock</th>
+            <th className={styles.item}>Vs Misty</th>
+            <th className={styles.item}>Vs Rival</th>
+            <th className={styles.item}>Vs Elite 4</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody className={styles.tablelist}>
           {filteredList.length === 0 && (<tr><td className='span-4'>No Pokemon found</td></tr>)}
           {filteredList.map((pokemon, index) => (
             <tr key={pokemon.id} >
@@ -139,7 +107,10 @@ export default function Home( {challenge, pokedex}) {
               <td>{pokemon.name}</td>
               <td><Image alt="type1" src={"/types/" + `${pokemon.type1}` +".png"} width={50} height={20} /><br />
               {pokemon.type2 !== "" && (<Image alt="type2" src={"/types/" + `${pokemon.type2}` +".png"} width={50} height={20} />)}</td>
-              <td></td>
+              <td className={pokemon.vsbrock=== "Win" ? styles.win : styles.loss }>{pokemon.vsbrock}</td>
+              <td>{pokemon.vsmisty}</td>
+              <td>{pokemon.vsrival}</td>
+              <td>{pokemon.vselite}</td>
 
             </tr>  
           ))}     

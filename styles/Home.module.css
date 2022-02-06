@@ -76,7 +76,17 @@
   -icab-border-radius: 10px; 
   -o-border-radius: 10px; 
   border: 3px solid #A040A0; 
-  white-space:nowrap
+  white-space:nowrap;
+  text-align: center;
+}
+
+.item {
+  background-color: greenyellow;
+  padding: 1rem
+}
+
+.tablelist tr:nth-child(even) {
+  background-color: rgba(172, 255, 47, 0.205);
 }
 
 .searchwrapper {
@@ -116,4 +126,12 @@
 .search:hover, .search:focus {
   border: 1.5px solid #009688;
   background-color: white;
+}
+
+.win {
+  color: green
+}
+
+.loss { 
+  color: red;
 }

@@ -21,7 +21,7 @@ export default function PokeBallCard({pokemon}) {
             {!clicked && (					
                 <div className={pokeballStyles.closedball}>
                     <a className={pokeballStyles.ball} onClick={() => setClicked(!clicked)}>
-                        <Image alt="pokeball" src={pokeball} width={400} height={200}/>
+                        <Image priority alt="pokeball" src={pokeball} width={400} height={200}/>
                     </a>
                 </div>
             )}
@@ -40,7 +40,7 @@ export default function PokeBallCard({pokemon}) {
                 {!clicked && (<AnimatePresence><motion.h2 initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}}>! wonder what&apos;s inside the Pokeball?</motion.h2></AnimatePresence>)}
                 
         
-                <AnimatePresence>
+                <AnimatePresence exitBeforeEnter>
                 {clicked && (<motion.div 
                         initial={{ scale: 0, opacity: 0, translateX: -50, translateY:-300}}
                         animate={{ scale:1, opacity: 1, translateX: 0, translateY: 0}}
