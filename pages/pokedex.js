@@ -5,7 +5,7 @@ import Image from 'next/image'
 import PokemonCard from '../components/PokemonCard'
 import { useState, useEffect } from 'react'
 import Meta from '../components/Meta'
-import Overlay from '../components/overlay'
+import Overlay from '../components/Overlay'
 
 
 
