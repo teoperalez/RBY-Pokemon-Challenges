@@ -139,7 +139,7 @@ export default function Home( {challenge, pokedex}) {
               <td><Image alt={pokemon.name} src={`http://img.pokemondb.net/sprites/black-white/anim/normal/${pokemon.name.toLowerCase()}.gif`} width={50} height={50} /></td>
               <td>{pokemon.name}</td>
               <td><Image alt="type1" src={"/types/" + `${pokemon.type1}` +".png"} width={50} height={20} /><br />
-              <Image alt="type2" src={"/types/" + `${pokemon.type2}` +".png"} width={50} height={20} /></td>
+              {pokemon.type2 !== "" && (<Image alt="type2" src={"/types/" + `${pokemon.type2}` +".png"} width={50} height={20} />)}</td>
               <td></td>
 
             </tr>  
