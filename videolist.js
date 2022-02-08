@@ -175,8 +175,14 @@ export const videos = [
     },
     {
         id: 30,
-        title: "Can #Bulbasaur beat Rival 5 (Silph Co) on #MinimumBattles? [Full Run]",
+        title: "Rival 5 (Silph Co) WRECKED by Bulbasaur w/o attacking moves on #MinimumBattles",
         playlist: "rival",
         url: "nE2t0Prn-nk"
+    },
+    {
+        id: 31,
+        title: "Rival 5 (Silph Co) vs Scythes for Hands (Kabutops) -  Is Swords Dance enough? on #MinimumBattles",
+        playlist: "rival",
+        url: "UWpJJlBWuK4"
     },
 ]
