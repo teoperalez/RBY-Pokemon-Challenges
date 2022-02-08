@@ -4,17 +4,17 @@ import Meta from '../components/Meta'
 export default function About() {
     return (
         <div className={styles.container}style={{margin: 12}}>
-            <Meta title="About RBY Pokemon Challenges" description="REad About RBY Pokemon Challenges" tags="Pokemon, Minimum Battles, Generation 1, Pokemon Red, Pokemon Blue, Pokemon Yellow"/>
+            <Meta title="About RBY Pokemon Challenges" description="Read About RBY Pokemon Challenges" tags="Pokemon, Minimum Battles, Generation 1, Pokemon Red, Pokemon Blue, Pokemon Yellow"/>
 
             <h1 className={styles.title}>About RBY Pokemon Challenges</h1>
             <br />
-            <p>Hello and Welcome to RBY Pokemon Challenges.   <br />My name is Teo, and I am striving to be the king of Minimum Battles in Generation 1 of Pokemon!  I started this challenge so that we could finally have a definitive list of every Pokemon that beats the game with the following rules:</p>
+            <p>Hello and Welcome to RBY Pokemon Challenges!   <br /><br />My name is Teo, and I am striving to be the king of Minimum Battles in Generation 1 of Pokemon!  I started this challenge so that we could finally have a definitive list of every Pokemon that beats the game with the following rules:</p>
             <br />
-            <ul>
-                <li>Only one Pokemon used in battle (others are for HMs only)</li>
-                <li>No items in battle</li>
-                <li>Only fighting trainers required to beat the game (no level grinding)</li>
-                <li>No glitches (except the Badge Boost glitch, since it&apos;s unavoidable)</li>
+            <ul className={styles.list}>
+                <li className={styles.list}>Only one Pokemon used in battle (others are for HMs only)</li>
+                <li className={styles.list}>No items in battle</li>
+                <li className={styles.list}>Only fighting trainers required to beat the game (no level grinding)</li>
+                <li className={styles.list}>No glitches (except the Badge Boost glitch, since it&apos;s unavoidable)</li>
             </ul>
             <br />
             <p>As of the launch of this website, we have already taken all 151 Generation 1 pokemon with MAX DVs through Brock and Misty and we are now continuing on to see which ones can beat Rival 5 at Silph Co. before taking the remaining challengers to the Elite 4.</p>

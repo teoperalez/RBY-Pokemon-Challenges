@@ -14,15 +14,27 @@
 
 }
 
-.navbar li {
+.navbar li{
     list-style: none;
     margin: auto;
     padding: 1rem;
 }
 
+.navbar li a{
+    color:aliceblue;
+}
+
+
 .navbar li:hover {
     background-color: rgb(190, 223, 157);
     color:black
 }
+
+
+.navbar li a:hover {
+    color:black
+}
+
+
 
 

@@ -1,11 +1,8 @@
 import styles from '../styles/Home.module.css'
-import {motion, AnimatePresence} from 'framer-motion'
-import Battle from '../components/Battle'
 import Image from 'next/image'
-import PokemonCard from '../components/PokemonCard'
 import { useState, useEffect, useRef } from 'react'
 import Meta from '../components/Meta'
-import Overlay from '../components/Overlay'
+
 
 
 
