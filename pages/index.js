@@ -31,7 +31,7 @@ export default function Home( {challenge, pokedex}) {
     }
 
     if (e.target.value === "challenge") {
-      setDex(pokedex.filter(pokemon => pokemon.vsmisty === "Win" || pokemon.vsrival ==="Upcoming"))
+      setDex(pokedex.filter(pokemon => pokemon.vsrival ==="Upcoming"))
     }
     
     }

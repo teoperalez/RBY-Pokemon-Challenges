@@ -67,12 +67,7 @@ export default function PokeBallCard({pokemon, refresh}) {
                 
                 
                 
-                {clicked && ( <div>
-                    <br />
-                    <br />
-                    <h2>Choose this Pokemon and start your journey?</h2>
-                    <button >Accept</button>
-                </div>)}
+                
             </div>
             
         </div>
