@@ -16,8 +16,7 @@ export default function Try({pdex, challenge}) {
         const myDex = window.localStorage.getItem("pokedex")
         setPersonalDex(myDex);
     })
-    console.log(pokedex)
-    console.log(personalDex)
+    
 
     const [dex, setDex] = useState(pdex)
   const [pokemon1, setPokemon1] = useState(dex[Math.floor(Math.random() * dex.length)]) 

@@ -2,16 +2,22 @@ import React, { useState, useEffect } from "react"
 import pokeball from "../public/pokeball.png"
 import openPokeball from "../public/openpokeball.png"
 import { useRouter } from 'next/router';
-
+import { usePokedex } from "../contexts/PokedexContext";
 import {motion, AnimatePresence} from 'framer-motion' 
 import pokeballStyles from '../styles/PokeBallCard.module.css'
 import Image from 'next/image'
 
 
-export default function PokeBallCard({pokemon, refresh}) {
+export default function PokeBallCard({pokemon}) {
     const [clicked, setClicked] = useState(false)
     const [myPokemon, setMyPokemon] = useState(null)      
     
+    useEffect(() => {
+        if (myPokemon !== null) {
+            window.localStorage.setItem("pokedex", JSON.stringify(myPokemon))
+            console.log("New Pokemon set in local storage!")        }
+    },[myPokemon])
+
     return (
         <div>
             {!clicked && (					
