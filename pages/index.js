@@ -52,7 +52,6 @@ export default function Home({pokedex}) {
 <br /><br />Let&apos;s dive into the world of Pokemon RBY, with only a change to our starters and see how far we can go!</p>
       <p className={styles.description}>This website was made to help the RBY Pokemon Challenges channel audience follow along with the challenges and provide some fun content for all of my amazing subscribers.  I enjoy making this content for all of you every week, and I can&apos;t wait to see where this channel goes!</p>
       <div className={styles.description}>
-        <PokemonCard />
         <input type="radio" id="pokedex" name="pokemon_list" defaultChecked="pokedex" value="pokedex" onChange={handleRadio} />
         <label  htmlFor="pokedex">   Full Pokedex  </label>
         <input type="radio" id="challenge" name="pokemon_list" value="challenge" onChange={handleRadio} />
