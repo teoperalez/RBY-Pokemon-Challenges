@@ -4,7 +4,7 @@ export default function Meta({title, description, tags}) {
     return (
         <Head>
             <title>RBY Pokemon Challenges || {title}</title>
-            <meta charset="UTF-8"></meta>
+            <meta charSet="UTF-8"></meta>
             <meta name="description" content={description}/>
             <meta name="keywords" content={tags}/>
             <meta name="author" content="Teo Peralez"></meta>

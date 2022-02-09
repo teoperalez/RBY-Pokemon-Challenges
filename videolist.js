@@ -181,7 +181,7 @@ export const videos = [
     },
     {
         id: 31,
-        title: "Rival 5 (Silph Co) vs Scythes for Hands (Kabutops) -  Is Swords Dance enough? on #MinimumBattles",
+        title: "Can Kabutops TOP Rival 5 on #Minimum Battles? -  Is Swords Dance enough?",
         playlist: "rival",
         url: "UWpJJlBWuK4"
     },

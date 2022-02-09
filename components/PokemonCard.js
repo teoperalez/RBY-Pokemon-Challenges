@@ -1,9 +1,22 @@
+import { useState, useEffect } from 'react'
+
 import styles from '../styles/Card.module.css'
 import { motion } from 'framer-motion'
 
 
-export default function PokemonCard({pokemon}) {
-    return (
+export default function PokemonCard() {
+  const [myPokemon, setMyPokemon] = useState(null)
+        
+    useEffect(() => {
+        const jsonValue = window.localStorage.getItem("pokedex")
+        setMyPokemon(jsonValue)
+        console.log(myPokemon)
+    },[])
+  
+  
+  
+  if (myPokemon !== null) {
+  return (
       <div className={styles.card}>
         
         
@@ -18,13 +31,10 @@ export default function PokemonCard({pokemon}) {
         
         >
           
-          <img src={pokemon.image} width={200}/>
+          <img src={myPokemon.image} width={200}/>
         </motion.div>
         <motion.h1 
-          initial= {{ opacity:0}}
-          whileHover={{
-          opacity: 1
-        }} className={styles.name}>{pokemon.name} / #{pokemon.id}</motion.h1>
+           className={styles.name}>{myPokemon.name} / #{myPokemon.id}</motion.h1>
                 
 
 
@@ -37,4 +47,6 @@ export default function PokemonCard({pokemon}) {
   
   
     )
+    }
+    return null
 }

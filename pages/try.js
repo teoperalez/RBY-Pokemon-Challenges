@@ -1,18 +1,28 @@
+import { useEffect, useState } from "react";
+import { usePokedex } from "../contexts/PokedexContext";
 import PokeBallCard from '../components/PokeBallCard'
 import styles from '../styles/Home.module.css'
 import {motion} from 'framer-motion'
 import Battle from '../components/Battle'
 import Meta from '../components/Meta'
-import { useState, useEffect } from 'react'
 import PokemonCard from '../components/PokemonCard'
 
+export default function Try({pdex, challenge}) {
+    const { pokedex, setPokedex, personalDex, setPersonalDex } = usePokedex()
+    
+    useEffect(() => {
+        setPokedex(pdex);
+        
+        const myDex = window.localStorage.getItem("pokedex")
+        setPersonalDex(myDex);
+    })
+    console.log(pokedex)
+    console.log(personalDex)
 
-export default function Home({pokedex}) {
-  
-  const [dex, setDex] = useState(pokedex)
-  const [pokemon1, setPokemon1] = useState(pokedex[Math.floor(Math.random() * pokedex.length)]) 
-  const [pokemon2, setPokemon2] = useState(pokedex[Math.floor(Math.random() * pokedex.length)])
-  const [pokemon3, setPokemon3] = useState(pokedex[Math.floor(Math.random() * pokedex.length)])
+    const [dex, setDex] = useState(pdex)
+  const [pokemon1, setPokemon1] = useState(dex[Math.floor(Math.random() * dex.length)]) 
+  const [pokemon2, setPokemon2] = useState(dex[Math.floor(Math.random() * dex.length)])
+  const [pokemon3, setPokemon3] = useState(dex[Math.floor(Math.random() * dex.length)])
   
 
   useEffect(() => {
@@ -77,22 +87,22 @@ export default function Home({pokedex}) {
 }
 
 export const getServerSideProps = async () => {
-  const response = await fetch("https://rby-pokemon-challenges.vercel.app/api/challenge");
-  if (!response.ok) {
-      throw new Error(`Error: ${response.status}`);
+    const response = await fetch("https://rby-pokemon-challenges.vercel.app/api/challenge");
+    if (!response.ok) {
+        throw new Error(`Error: ${response.status}`);
+      }
+    const challenge = await response.json();
+    const response2 = await fetch("https://rby-pokemon-challenges.vercel.app/api/pokedex");
+    if (!response2.ok) {
+      throw new Error(`Error: ${response2.status}`);
     }
-  const challenge = await response.json();
-  const response2 = await fetch("https://rby-pokemon-challenges.vercel.app/api/pokedex");
-  if (!response2.ok) {
-    throw new Error(`Error: ${response2.status}`);
+      const pdex = await response2.json();  
+  
+  return {
+    props: {
+      challenge,
+      pdex 
+      
+    }
+  };
   }
-    const pokedex = await response2.json();  
-
-return {
-  props: {
-    challenge,
-    pokedex 
-    
-  }
-};
-}

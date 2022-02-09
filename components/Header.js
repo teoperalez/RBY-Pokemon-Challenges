@@ -8,7 +8,7 @@ export default function Header() {
     
     return(
         <header className={styles.header}>
-            <Image alt="RBY Pokemon Challenges Banner"src={banner} layout="responsive" />
+            <Image priority alt="RBY Pokemon Challenges Banner"src={banner} layout="responsive" />
             
         </header>
     )

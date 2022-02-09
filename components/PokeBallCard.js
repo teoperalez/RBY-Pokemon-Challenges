@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import pokeball from "../public/pokeball.png"
 import openPokeball from "../public/openpokeball.png"
 import { useRouter } from 'next/router';
@@ -10,11 +10,7 @@ import Image from 'next/image'
 
 export default function PokeBallCard({pokemon, refresh}) {
     const [clicked, setClicked] = useState(false)
-    const router = useRouter();
-
-    
-  
-      
+    const [myPokemon, setMyPokemon] = useState(null)      
     
     return (
         <div>
@@ -37,7 +33,7 @@ export default function PokeBallCard({pokemon, refresh}) {
                 className={pokeballStyles.card}
                 
             >
-                {!clicked && (<AnimatePresence><motion.h2 initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}}>! wonder what&apos;s inside the Pokeball?</motion.h2></AnimatePresence>)}
+                {!clicked && (<AnimatePresence><motion.h2 initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}}>I wonder what&apos;s inside the Pokeball?</motion.h2></AnimatePresence>)}
                 
         
                 <AnimatePresence exitBeforeEnter>
@@ -62,7 +58,7 @@ export default function PokeBallCard({pokemon, refresh}) {
                             
                     </div>)}
                 
-                    
+                    {clicked && (<button onClick={() => setMyPokemon(pokemon.id)}>Set Pokemon</button>)}   
                 
                 
                 
