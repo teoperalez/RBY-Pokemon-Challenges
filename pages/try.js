@@ -15,7 +15,7 @@ export default function Try({pdex, challenge}) {
         
         const myDex = window.localStorage.getItem("pokedex")
         setPersonalDex(myDex);
-    })
+    }, [pdex])
     
 
     const [dex, setDex] = useState(pdex)

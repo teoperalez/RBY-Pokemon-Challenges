@@ -14,7 +14,7 @@ export default function PokeBallCard({pokemon}) {
     
     useEffect(() => {
         if (myPokemon !== null) {
-            window.localStorage.setItem("pokedex", JSON.stringify(myPokemon))
+            window.localStorage.setItem("pokedex", myPokemon)
             console.log("New Pokemon set in local storage!")        }
     },[myPokemon])
 
