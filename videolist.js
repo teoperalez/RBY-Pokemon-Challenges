@@ -185,4 +185,10 @@ export const videos = [
         playlist: "rival",
         url: "UWpJJlBWuK4"
     },
+    {
+        id: 32,
+        title: "Only Dugtrio vs. Rival 5 - Speed Kills or Digging My Own Grave? - #MinimumBattles",
+        playlist: "rival",
+        url: "doquMrvzMSg"
+    },
 ]
