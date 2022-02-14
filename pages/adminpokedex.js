@@ -94,13 +94,13 @@ export default function AdminPokedex( {challenge, pokedex}) {
     {searchQuery !== "" && (<img className={styles.clearicon} src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUxLjk3NiA1MS45NzYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxLjk3NiA1MS45NzY7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4Ij4KPGc+Cgk8cGF0aCBkPSJNNDQuMzczLDcuNjAzYy0xMC4xMzctMTAuMTM3LTI2LjYzMi0xMC4xMzgtMzYuNzcsMGMtMTAuMTM4LDEwLjEzOC0xMC4xMzcsMjYuNjMyLDAsMzYuNzdzMjYuNjMyLDEwLjEzOCwzNi43NywwICAgQzU0LjUxLDM0LjIzNSw1NC41MSwxNy43NCw0NC4zNzMsNy42MDN6IE0zNi4yNDEsMzYuMjQxYy0wLjc4MSwwLjc4MS0yLjA0NywwLjc4MS0yLjgyOCwwbC03LjQyNS03LjQyNWwtNy43NzgsNy43NzggICBjLTAuNzgxLDAuNzgxLTIuMDQ3LDAuNzgxLTIuODI4LDBjLTAuNzgxLTAuNzgxLTAuNzgxLTIuMDQ3LDAtMi44MjhsNy43NzgtNy43NzhsLTcuNDI1LTcuNDI1Yy0wLjc4MS0wLjc4MS0wLjc4MS0yLjA0OCwwLTIuODI4ICAgYzAuNzgxLTAuNzgxLDIuMDQ3LTAuNzgxLDIuODI4LDBsNy40MjUsNy40MjVsNy4wNzEtNy4wNzFjMC43ODEtMC43ODEsMi4wNDctMC43ODEsMi44MjgsMGMwLjc4MSwwLjc4MSwwLjc4MSwyLjA0NywwLDIuODI4ICAgbC03LjA3MSw3LjA3MWw3LjQyNSw3LjQyNUMzNy4wMjIsMzQuMTk0LDM3LjAyMiwzNS40NiwzNi4yNDEsMzYuMjQxeiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" onClick={clearSearch}/>)}
   </div> 
       
-      <div className={styles.wrapper}>
+      <motion.div layout className={styles.wrapper}>
       
       
-      <table className={styles.stattable}>
+      <motion.table layout className={styles.stattable}>
       
         <thead>
-          <tr>
+          <motion.tr layout>
             <th className={styles.item}>ID</th>
             <th className={styles.item}>Sprite</th>
             <th className={styles.item}>Name</th>
@@ -110,12 +110,12 @@ export default function AdminPokedex( {challenge, pokedex}) {
             <th className={styles.item}>Vs Rival <br /><span className={styles.small}>(Max DVs)</span></th>
             <th className={styles.item}>Vs Elite 4 <br /><span className={styles.small}>(Max DVs)</span></th>
             <th>View More</th>
-          </tr>
+          </motion.tr>
         </thead>
         <tbody className={styles.tablelist}>
           {filteredList.length === 0 && (<tr><td className='span-4'>No Pokemon found</td></tr>)}
           {filteredList.map((pokemon, index) => (
-            <tr key={pokemon.id} >
+            <motion.tr layout key={pokemon.id} >
               
               <td>{pokemon.id}</td>
               <td><Image alt={pokemon.name} src={`http://img.pokemondb.net/sprites/black-white/anim/normal/${pokemon.name.toLowerCase()}.gif`} width={50} height={50} /></td>
@@ -127,16 +127,16 @@ export default function AdminPokedex( {challenge, pokedex}) {
               <td className={pokemon.vsrival=== "Win" ? styles.win : pokemon.vsrival=== "Loss" ? styles.loss : "" }>{pokemon.vsrival}</td>
               <td className={pokemon.vselite=== "Win" ? styles.win : pokemon.vselite=== "Loss" ? styles.loss : "" }>{pokemon.vselite}</td>
               <td><button onClick={handleOverlay}>Open Overlay</button></td>
-            </tr>  
+            </motion.tr>  
           ))}     
         </tbody>
 
-      </table>
+      </motion.table>
       
  
  
             
-        </div>
+        </motion.div>
        
         {showOverlay && (<Overlay handleClose={closeOverlay} pokemon={pokedex.filter(pokemon => pokemon.id === selectedId)}/>)}
       </div>
