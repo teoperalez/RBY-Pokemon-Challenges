@@ -23,6 +23,7 @@ export default function Videos({videos}) {
   useEffect(() => {
     setCarouselWidth(carousel1.current.scrollWidth- carousel1.current.offsetWidth)
     setCarousel2Width(carousel2.current.scrollWidth- carousel2.current.offsetWidth)
+    setCarousel3Width(carousel3.current.scrollWidth- carousel3.current.offsetWidth)
     setWidth(card.current.scrollWidth)
     setHeight(card.current.scrollWidth*9/16)
   }, [])
