@@ -191,4 +191,10 @@ export const videos = [
         playlist: "rival",
         url: "doquMrvzMSg"
     },
+    {
+        id: 33,
+        title: "Cloyster Vs Rival 5 - Give 'Em the Clamps! #MinimumBattles",
+        playlist: "rival",
+        url: "vXVQpgaOpmQ"
+    },
 ]

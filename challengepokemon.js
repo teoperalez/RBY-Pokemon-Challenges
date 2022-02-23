@@ -172,10 +172,7 @@ export const challenge = [
         id: 45,
         dexnum: 87, 
     },
-    {
-        id: 46,
-        dexnum: 91, 
-    },
+    
     {
         id: 47,
         dexnum: 92, 
