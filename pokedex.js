@@ -1228,7 +1228,7 @@ export const pokedex = [
       image: "/pokemon/arcanine.png",
       brockurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
       mistyurl: "https://youtu.be/NoaZuHIO-DQ?t=468",
-      rivalurl: "",
+      rivalurl: "https://youtu.be/3o8ntdLyAIA",
       eliteurl: "",
       vsbrock: "Win",
       vsmisty: "Win",

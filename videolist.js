@@ -197,4 +197,10 @@ export const videos = [
         playlist: "rival",
         url: "vXVQpgaOpmQ"
     },
+    {
+        id: 34,
+        title: "Arcanine vs. Rival 5 - Is a Psuedo-Legendary enough? #MinimumBattles #PokemonYellow",
+        playlist: "rival",
+        url: "3o8ntdLyAIA"
+    },
 ]
