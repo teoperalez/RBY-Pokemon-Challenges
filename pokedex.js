@@ -1715,7 +1715,7 @@ export const pokedex = [
       eliteurl: "",
       vsbrock: "Win",
       vsmisty: "Win",
-      vsrival: "Upcoming",
+      vsrival: "Win",
       vselite: "Upcoming",
       hp: 45,
       attack: 49,
