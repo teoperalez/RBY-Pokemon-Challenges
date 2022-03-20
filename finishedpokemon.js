@@ -8,6 +8,10 @@ export const finished = [
         dexnum: 51, 
     },
     {
+        id: 27,
+        dexnum: 53, 
+    },
+    {
         id: 29,
         dexnum: 59, 
     },

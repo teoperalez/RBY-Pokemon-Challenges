@@ -96,10 +96,7 @@ export const challenge = [
         dexnum: 49, 
     },
     
-    {
-        id: 27,
-        dexnum: 53, 
-    },
+    
     {
         id: 28,
         dexnum: 57, 
