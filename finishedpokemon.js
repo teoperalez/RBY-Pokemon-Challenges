@@ -21,6 +21,10 @@ export const finished = [
         dexnum: 61, 
     },
     {
+        id: 39,
+        dexnum: 77, 
+    },
+    {
         id: 43,
         dexnum: 82, 
     },
@@ -39,6 +43,10 @@ export const finished = [
     {
         id: 72,
         dexnum: 141, 
+    },
+    {
+        id: 73,
+        dexnum: 143, 
     },
     
 ]
