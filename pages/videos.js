@@ -15,9 +15,10 @@ export default function Videos({videos}) {
   const carousel2 = useRef();
   const carousel3 = useRef();
 
+  const yellowVideos = videos.filter(vid => vid.playlist.includes('yellow'));
+  const lv5Videos = videos.filter(vid => vid.playlist.includes('lv5'));
+  const impossibleVideos = videos.filter(vid => vid.playlist.includes('impossible'));
   const brockVideos = videos.filter(vid => vid.playlist.includes('brock'));
-  const mistyVideos = videos.filter(vid => vid.playlist.includes('misty'));
-  const rivalVideos = videos.filter(vid => vid.playlist.includes('rival'));
 
 
   useEffect(() => {
@@ -32,11 +33,11 @@ export default function Videos({videos}) {
         <div className={styles.container}>
             <Meta title="Challenge Videos" description="Pokemon Challenge Videos from RBY Pokemon Challenges" tags="Pokemon, Challenge, Youtube, Minimum Battles, Generation 1, Pokemon Red, Pokemon Blue, Pokemon Yellow"/>
 
-            <h1>Brock Minimum Battles Runs</h1>
+            <h1>Pokemon Yellow Full Game Runs</h1>
             <motion.div ref={carousel1} drag="x" dragConstraints={{right:0, left:-carouselWidth- 36}} className={styles.wrapper}>
             
               <motion.div className={styles.carousel}>
-            {brockVideos.map((video, index) => (
+            {yellowVideos.map((video, index) => (
                 <div ref={card} key={video.url} className={styles.card}>
                   <div>
                     <iframe width={width} height={height} id="video" src={"https://www.youtube.com/embed/"+`${video.url}`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
@@ -47,10 +48,10 @@ export default function Videos({videos}) {
             </motion.div>
             </motion.div>
             
-            <h1>Misty Minimum Battles Runs</h1>
+            <h1>Level 5 Runs</h1>
             <motion.div ref={carousel2} drag="x" dragConstraints={{right:0, left:-carousel2Width- 36}} className={styles.wrapper}>
             <motion.div className={styles.carousel}>
-              {mistyVideos.map((video, index) => (
+              {lv5Videos.map((video, index) => (
                 <div ref={card} key={video.url} className={styles.card}>
                   <div>
                     <iframe width={width} height={height} id="video" src={"https://www.youtube.com/embed/"+`${video.url}`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
@@ -60,10 +61,23 @@ export default function Videos({videos}) {
               ))}
               </motion.div>
             </motion.div>
-            <h1>Rival 5 (Silph Co.) Minimum Battles Runs</h1>
+            <h1>Impossible Challenges</h1>
             <motion.div ref={carousel3} drag="x" dragConstraints={{right:0, left:-carousel3Width- 36}} className={styles.wrapper}>
             <motion.div className={styles.carousel}>
-            {rivalVideos.map((video, index) => (
+            {impossibleVideos.map((video, index) => (
+                <div ref={card} key={video.url} className={styles.card}>
+                  <div>
+                    <iframe width={width} height={height} id="video" src={"https://www.youtube.com/embed/"+`${video.url}`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                  </div>
+                  <h2 className={styles.title}>{video.title}</h2>
+                </div>
+            ))}
+            </motion.div>
+            </motion.div>
+            <h1>Brock Minimum Battles</h1>
+            <motion.div ref={carousel3} drag="x" dragConstraints={{right:0, left:-carousel3Width- 36}} className={styles.wrapper}>
+            <motion.div className={styles.carousel}>
+            {brockVideos.map((video, index) => (
                 <div ref={card} key={video.url} className={styles.card}>
                   <div>
                     <iframe width={width} height={height} id="video" src={"https://www.youtube.com/embed/"+`${video.url}`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
