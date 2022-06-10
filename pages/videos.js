@@ -15,7 +15,7 @@ export default function Videos({videos}) {
   const carousel2 = useRef();
   const carousel3 = useRef();
 
-  const yellowVideos = videos.filter(vid => vid.playlist.includes('yellow'));
+  const yellowVideos = videos.filter(vid => vid.playlist.includes('Yellow'));
   const lv5Videos = videos.filter(vid => vid.playlist.includes('lv5'));
   const impossibleVideos = videos.filter(vid => vid.playlist.includes('impossible'));
   const brockVideos = videos.filter(vid => vid.playlist.includes('brock'));
