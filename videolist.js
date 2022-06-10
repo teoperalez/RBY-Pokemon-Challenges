@@ -37,21 +37,9 @@ export const videos = [
     },
     {
         id: 16,
-        title: "Can You Beat Pokemon Yellow with ONLY these Pokemon?",
-        playlist: "impossible",
-        url: "FOHY1ZlgY64"
-    },
-    {
-        id: 16,
         title: "You've NEVER Beaten Pokemon With THIS Kanto TEAM!",
         playlist: "impossible",
         url: "FOHY1ZlgY64"
-    },
-    {
-        id: 17,
-        title: "Can the WORST Bulbasaur beat Pokemon Yellow on Minimum Battles?",
-        playlist: "Yellow",
-        url: "CRqkIf_qGNU"
     },
     {
         id: 17,
