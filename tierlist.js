@@ -1,4 +1,4 @@
-export const tierList = [
+export const tierlist = [
     {
       Rank: 1,
       Pokemon: "Mewtwo",
