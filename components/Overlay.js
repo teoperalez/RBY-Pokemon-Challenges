@@ -2,17 +2,15 @@ import styles from '../styles/Overlay.module.css'
 import Image from 'next/image'
 
 export default function Overlay({pokemon, handleClose}) {
-    console.log(pokemon[0])
+    console.log(pokemon)
     
     return (
         <div className={styles.container}>
              
             
-            <div className={styles.pokedex}>
-                <img src="/PokedexBackground.gif" alt="Pokedex Overlay" width={1920} height={1080} />
-            </div>
             
-            <div className={styles.pokemon} >
+            
+            <div >
             <img alt={pokemon[0].name}src={pokemon[0].image} width={200} />
             </div>
             <div className={styles.info} >

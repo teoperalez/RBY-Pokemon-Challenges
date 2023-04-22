@@ -1,4 +1,5 @@
 import styles from '../styles/Home.module.css'
+import tableStyles from '../styles/StatTable.module.css'
 import {motion, AnimatePresence} from 'framer-motion'
 import Battle from '../components/Battle'
 import Image from 'next/image'
@@ -139,6 +140,9 @@ export default function AdminPokedex( {challenge, pokedex}) {
         </motion.div>
        
         {showOverlay && (<Overlay handleClose={closeOverlay} pokemon={pokedex.filter(pokemon => pokemon.id === selectedId)}/>)}
+        
+        
+        
       </div>
       
   )
@@ -155,11 +159,17 @@ export const getServerSideProps = async () => {
     throw new Error(`Error: ${response2.status}`);
   }
     const pokedex = await response2.json();  
-
+    const response3 = await fetch("http://localhost:8085/dist/gameHookMapperClient.js");
+    if (!response3.ok) {
+      throw new Error(`Error: ${response3.status}`);
+    }
+      
+    
 return {
   props: {
     challenge,
-    pokedex 
+    pokedex,
+    
     
   }
 };

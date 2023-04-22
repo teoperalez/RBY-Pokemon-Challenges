@@ -14,11 +14,7 @@ export const pokedex = [
       vsmisty: "Win",
       vsrival: "Win",
       vselite: "Win",
-      hp: 45,
-      attack: 49,
-      defense: 49,
-      special: 65,
-      speed: 45
+      
     },
     {
       id: 2,
