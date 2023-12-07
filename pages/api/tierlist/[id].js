@@ -4,7 +4,7 @@ import { pokedex } from "../../../pokedex";
 export default function handler(request, response) {
   const { method } = request;
 
-  const challengelist = [];
+  const tierlist = [];
 
   for (let i = 0; i < challenge.length; i++) {
     const challengepokemon = challenge[i];        
